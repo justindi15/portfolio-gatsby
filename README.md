@@ -10,7 +10,6 @@ No plugins installed, great for advanced users.
 
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
-- 🐐 **Tests** - Jest and Testing Library
 - 🗂 **Root import** - Import folders and files using the `@` prefix.
 
 ## 🚀 Getting started
