@@ -20,6 +20,8 @@
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
     "autoprefixer": "^10.4.0",
     "gatsby": "4.0.0",
     "gatsby-plugin-postcss": "^5.1.0",
