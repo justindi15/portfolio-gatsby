@@ -1,7 +1,7 @@
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import logo from '../images/logo.svg'
+import logo from '../images/logo-grey.svg'
 
 
 export default function Nav() {
@@ -9,7 +9,7 @@ export default function Nav() {
     <Disclosure as="nav" className="bg-white mt-10">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between h-16">
                 <div className="flex-shrink-0 flex items-center">
                     <img
@@ -29,13 +29,13 @@ export default function Nav() {
                     href="#"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
-                    WORK
+                    EXPERIENCE
                     </a>
                     <a
                     href="#"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
-                    EXPERIENCE
+                    WORK
                     </a>
                     <a
                     href="#"
@@ -72,14 +72,14 @@ export default function Nav() {
                 href="#"
                 className="block pl-3 pr-4 py-2 border-l-4 text-3xl"
               >
-                Work
+                Experience
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
                 className="block pl-3 pr-4 py-2 border-l-4 text-3xl"
               >
-                Experience
+                Work
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
