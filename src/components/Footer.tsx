@@ -24,11 +24,11 @@ export default function Footer(){
                 </div>
 
                 <div className="grid grid-cols-1 mt-20 md:mt-0 md:grid-cols-2">
-                    <div className="text-gray-700 text-sm font-bold space-x-10 mt-3 md:order-3">
-                                <a className="hover:text-gray-500" target="_blank" href="https://github.com/justindi15">{'GITHUB'}</a>
-                                <a className="hover:text-gray-500" target="_blank" href="https://www.linkedin.com/in/justindi/">{'LINKEDIN'}</a>
-                                <a className="hover:text-gray-500" target="_blank" href="https://www.instagram.com/jjustindi/">{'INSTAGRAM'}</a>
-                                <a className="hover:text-gray-500" target="_blank" href="https://open.spotify.com/user/12159194926?si=UqsEo_0HSF62Vo06YUxslA">{'SPOTIFY'}</a>
+                    <div className="flex text-gray-700 text-sm font-bold mt-3 flex-wrap">
+                                <a className="hover:text-gray-500 mr-10" target="_blank" href="https://github.com/justindi15">{'GITHUB'}</a>
+                                <a className="hover:text-gray-500 mr-10" target="_blank" href="https://www.linkedin.com/in/justindi/">{'LINKEDIN'}</a>
+                                <a className="hover:text-gray-500 mr-10" target="_blank" href="https://www.instagram.com/jjustindi/">{'INSTAGRAM'}</a>
+                                <a className="hover:text-gray-500 mr-10" target="_blank" href="https://open.spotify.com/user/12159194926?si=UqsEo_0HSF62Vo06YUxslA">{'SPOTIFY'}</a>
                     </div>
                     <div className="grid grid-cols-2">
                         <h1 className="text-white flex items-end mt-20 md:mt-0 md:order-1">© 2021</h1>
