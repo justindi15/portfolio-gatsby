@@ -8,37 +8,37 @@ import project3 from '../images/project3.jpeg'
 
 export default function Work(){
 
-    const sample: ProjectType = {
+    const odyssee: ProjectType = {
         title: 'Odyssee',
         image: project1,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nunc sed non accumsan amet egestas non vitae. Risus, lacus tincidunt.',
-        tags: ['React', 'Node.js', 'Stripe API', 'Google Maps'],
-        gotoLink: 'https://www.google.com',
-        githubLink: 'https://github.com/justindi15'
+        description: 'A digital mural of data visualizations about people’s emotions and routines based on the recorded experiences of individuals around the world during the pandemic.',
+        tags: ['HTML', 'CSS', 'JavaScript', 'D3.js'],
+        gotoLink: 'http://odyssee.community/gallery.html',
+        githubLink: 'https://github.com/piabocanegra/odyssee'
     }
 
-    const sample2: ProjectType = {
+    const storagehotel: ProjectType = {
         title: 'Storagehotel',
         image: project2,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nunc sed non accumsan amet egestas non vitae. Risus, lacus tincidunt.',
-        tags: ['React', 'Node.js', 'Stripe API', 'Google Maps'],
-        gotoLink: 'https://www.google.com',
-        githubLink: 'https://github.com/justindi15'
+        description: 'A web application with a checkout flow for booking temporary storage for students and a dashboard to digitally manage the items being stored.',
+        tags: ['Angular', 'ExpressJS', 'MongoDB', 'Stripe API', 'Google Maps API'],
+        gotoLink: 'https://app.storagehotel.ca/checkout',
+        githubLink: 'https://github.com/justindi15/storagehotel'
     }
 
-    const sample3: ProjectType = {
-        title: 'Vancouver Startup Week',
+    const lulurestocks: ProjectType = {
+        title: 'Lulurestocks',
         image: project3,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nunc sed non accumsan amet egestas non vitae. Risus, lacus tincidunt.',
-        tags: ['React', 'Node.js', 'Stripe API', 'Google Maps'],
-        gotoLink: 'https://www.google.com',
-        githubLink: 'https://github.com/justindi15'
+        description: 'A web application that allows users to receive Email/SMS notifications when their favorite Lululemon items are back in stock. It involves a scheduled CRON job that periodically checks if an item is back in stock.',
+        tags: ['NextJS', 'TailwindCSS', 'Firebase', 'SendGrid', 'Twilio'],
+        gotoLink: 'https://www.lulurestocks.com',
+        githubLink: 'https://github.com/justindi15/lulu-restocks'
     }
 
-    const projects: ProjectType[] = [sample, sample2, sample3]
+    const projects: ProjectType[] = [odyssee, storagehotel, lulurestocks]
 
     return(
-        <section className="max-w-7xl mx-auto flex flex-col">
+        <section id="work" className="max-w-7xl mt-36 mx-auto flex flex-col">
             <div className="px-4">
                 <h1 className="text-gray-400">EXPLORE MY PROJECTS</h1>
             </div>

@@ -20,25 +20,25 @@ export default function Nav() {
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-20">
                     <a
-                    href="#"
+                    href="#about"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                     ABOUT
                     </a>
                     <a
-                    href="#"
+                    href="#experience"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                     EXPERIENCE
                     </a>
                     <a
-                    href="#"
+                    href="#work"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                     WORK
                     </a>
                     <a
-                    href="#"
+                    href="#contact"
                     className="border-transparent hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                     >
                     CONTACT

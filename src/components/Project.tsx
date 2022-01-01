@@ -25,8 +25,8 @@ export default function Project({ project, isLast }: ProjectParams){
                     ))}
                 </div>
                 <div className="flex space-x-8 mt-10">
-                        <img src={githubIcon}/>
-                        <img src={gotoIcon}/>
+                        <a target="_blank" href={project.gotoLink}><img src={gotoIcon}/></a>
+                        <a target="_blank" href={project.githubLink}><img src={githubIcon}/></a>
                 </div>
             </div>
         </div>

@@ -13,39 +13,27 @@ export default function Footer(){
                     />
                     <div className="mt-10 md:mt-0">
                         <div className="grid grid-cols-2">
-                            <h1 className="text-white text-2xl">{'Experience'}</h1>
-                            <h1 className="text-white text-2xl">{'Work'}</h1>
+                            <a href="#experience" className="text-white text-2xl hover:text-gray-500">{'Experience'}</a>
+                            <a href="#work" className="hover:text-gray-500 text-white text-2xl">{'Work'}</a>
                         </div>
 
                         <div className="my-20 md:my-40">
                             <h1 className="text-white text-2xl">{'Vancouver based developer creating aesthetic digital experiences'}</h1>
-                            <div className="text-gray-700 text-sm font-bold space-x-10 mt-3">
-                                <a>{'LINKEDIN'}</a>
-                                <a>{'INSTAGRAM'}</a>
-                                <a>{'SPOTIFY'}</a>
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 mt-20 md:mt-0 md:grid-cols-4">
-                    <div className="text-white flex items-end md:order-3">
-                                <div>
-                                    <p className="text-white">{'Home Office'}</p>
-                                    <p className="text-gray-600">{'6071 Dunmsuir Cres.'}</p>
-                                    <p className="text-gray-600">{'Richmond, B.C'}</p>
-                                    <p className="text-gray-600">{'Canada'}</p>
-                                </div>
-                            </div>
-                    <div className="text-white flex items-end md:order-4">
-                                <div>
-                                    <p className="text-gray-600">(778)-898-5477</p>
-                                    <p className="text-white mt-1">{'hello@justindi.dev'}</p>
-                                    <p className="text-white mt-5">{'05:23:05 local time'}</p>
-                                </div>
+                <div className="grid grid-cols-1 mt-20 md:mt-0 md:grid-cols-2">
+                    <div className="text-gray-700 text-sm font-bold space-x-10 mt-3 md:order-3">
+                                <a className="hover:text-gray-500" target="_blank" href="https://github.com/justindi15">{'GITHUB'}</a>
+                                <a className="hover:text-gray-500" target="_blank" href="https://www.linkedin.com/in/justindi/">{'LINKEDIN'}</a>
+                                <a className="hover:text-gray-500" target="_blank" href="https://www.instagram.com/jjustindi/">{'INSTAGRAM'}</a>
+                                <a className="hover:text-gray-500" target="_blank" href="https://open.spotify.com/user/12159194926?si=UqsEo_0HSF62Vo06YUxslA">{'SPOTIFY'}</a>
                     </div>
-                    <h1 className="text-white flex items-end mt-20 md:mt-0 md:order-1">© 2021</h1>
-                    <h1 className="text-white flex items-end mt-20 md:mt-0 md:order-2">Built by Justin Di</h1>
+                    <div className="grid grid-cols-2">
+                        <h1 className="text-white flex items-end mt-20 md:mt-0 md:order-1">© 2021</h1>
+                        <h1 className="text-white flex items-end mt-20 md:mt-0 md:order-2">Built by Justin Di</h1>
+                    </div>
                 </div>
 
             </div>
