@@ -2,9 +2,9 @@ import Project from '@/components/Project'
 import { ProjectType } from '@/types'
 import React from 'react'
 
-import project1 from '../images/project1.jpeg'
-import project2 from '../images/project2.jpeg'
-import project3 from '../images/project3.jpeg'
+import project1 from '../images/project1.png'
+import project2 from '../images/project2.png'
+import project3 from '../images/project3.png'
 
 export default function Work(){
 
